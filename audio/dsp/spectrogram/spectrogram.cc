@@ -132,7 +132,7 @@ template <class InputSample, class OutputSample>
 bool Spectrogram::ComputeSquaredMagnitudeSpectrogram(
     const std::vector<InputSample>& input,
     std::vector<std::vector<OutputSample>>* output) {
-  printf("ComputeSquaredMagnitudeSpectrogram\n");
+  //printf("ComputeSquaredMagnitudeSpectrogram\n");
   if (!initialized_) {
     LOG(ERROR) << "ComputeSquaredMagnitudeSpectrogram() called before "
                << "successful call to Initialize().";
